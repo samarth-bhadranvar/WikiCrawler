@@ -60,6 +60,8 @@ for rowIndex in range(3,len(rowsList)):
                 dateFlag = dateFlag or True
             else:
                 dateFlag = dateFlag or False
+            if rowIndex == len(rowsList)-1:
+                dateCountDict[dateString] += 1
 
 # print(dateCountDict)
 out = open("orbital_launches_output.csv","w")
