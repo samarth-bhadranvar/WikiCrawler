@@ -64,6 +64,8 @@ for rowIndex in range(3,len(rowsList)):
 # print(dateCountDict)
 out = open("orbital_launches_output.csv","w")
 
+out.write("date, value\n")
+
 for entry in dateCountDict.keys():
     #Space after ',' as mentioned in the assignment description
     out.write(entry+", "+str(dateCountDict[entry]))
