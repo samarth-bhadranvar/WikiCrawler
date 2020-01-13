@@ -1,4 +1,4 @@
-# wiki_crawler
+# WikiCrawler
 #Samarth Bhadranvar
 
 Web crawler to extract number of launches with atleast one payload status being successful, operational or en route for every day in 2019
@@ -11,7 +11,7 @@ Output File:<br/>
  ISO_date, int<br/>
  (space after ',' as per the description)
 
-Env and libs:
+Env and libs:<br/>
 -Python 3.7<br/>
 -Requests 2.22.0<br/>
 -BeautifulSoup 4.8.2
